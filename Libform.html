@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Library' Form</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<center>
+		<h1>LIBRARY MANAGEMENT</h1>
+			<form>
+				<table>
+					<tr>
+						<td>First Name</td>
+						<td><input type="text" required="required" pattern="[A-Z]{1}[a-z]+"></td>
+					</tr>
+					<tr>
+						<td>Last Name</td>
+						<td><input type="text" required="required" pattern="[A-Z]{1}[a-z]+"></td>
+					</tr>
+					<tr>
+						<td>E-mail</td>
+						<td><input type="E-mail" required="required"
+						 pattern="[a-z][0-9]+\@[a-z]\.[a-z]{2,3}"></td>
+					</tr>
+					<tr>
+						<td>Mobile No.</td>
+						<td><input type="text" pattern="[0-9]{10}" required="required"></td>
+					</tr>
+					<tr>
+						<td>Branch</td>
+						<td><input type="radio" name="a" checked="checked" required="required">B.Tech
+						<input type="radio" name="a">M.Tech
+						<input type="radio" name="a">BCA
+						<input type="radio" name="a">MCA
+						<input type="radio" name="a">B.Sc
+						<input type="radio" name="a">M.Sc</td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td><input type="radio" name="g" checked="checked" required="required">Male
+						<input type="radio" name="g">Female</td>
+					</tr>
+					<tr>
+						<td>Birth Date</td>
+						<td><input type="date" required="required" max="2021-11-25" min="1990-1-1"></td>
+					</tr>
+					<tr>
+						<td>Issue Date</td>
+						<td><input type="date" required="required" max="2021-11-25" min="1990-1-1"></td>
+					</tr>
+					<tr>
+						<td>Return Date</td>
+						<td><input type="date" required="required" max="2021-11-25" min="1990-1-1"></td>
+					</tr>
+					<tr>
+						<td>Student's Photo</td>
+						<td><input type="file"></td>
+					</tr>
+					<tr>
+						<td align="center" colspan="2">
+						<input type="submit" value="Submit" required="required">
+						<input type="reset" value="Reset">
+						</td>
+					</tr>
+
+				</table>
+			</form>
+
+</body>
+</html>
